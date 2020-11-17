@@ -27,6 +27,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "log4r", "~> 1.1"
   s.add_runtime_dependency "faraday_middleware", "~> 0.9"
-  s.add_runtime_dependency "json", "~> 1.8"
+  s.add_runtime_dependency "json", "> 1.8"
   s.add_runtime_dependency "net-http-persistent",  "~> 2.9"
 end
